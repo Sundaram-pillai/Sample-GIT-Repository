@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16571" started-at="2016-05-08T08:55:40Z" finished-at="2016-05-08T08:55:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16571" started-at="2016-05-08T08:55:40Z" finished-at="2016-05-08T08:55:56Z">
+      <class name="sampleGooglePackage.sampleProject.sampleGoogleLauncherTest">
+        <test-method status="PASS" signature="beforMethod()[pri:0, instance:sampleGooglePackage.sampleProject.sampleGoogleLauncherTest@721e0f4f]" name="beforMethod" is-config="true" duration-ms="12540" started-at="2016-05-08T14:25:40Z" finished-at="2016-05-08T14:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:sampleGooglePackage.sampleProject.sampleGoogleLauncherTest@721e0f4f]" name="testMethod" duration-ms="3217" started-at="2016-05-08T14:25:52Z" finished-at="2016-05-08T14:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="FAIL" signature="afterMethod()[pri:0, instance:sampleGooglePackage.sampleProject.sampleGoogleLauncherTest@721e0f4f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-05-08T14:25:56Z" finished-at="2016-05-08T14:25:56Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[The FirefoxDriver cannot be used after quit() was called.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Newt-Rnt06', ip: '192.168.0.7', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: The FirefoxDriver cannot be used after quit() was called.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Newt-Rnt06', ip: '192.168.0.7', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:377)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+	at sampleGooglePackage.sampleProject.sampleGoogleLauncherTest.afterMethod(sampleGoogleLauncherTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:709)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- sampleGooglePackage.sampleProject.sampleGoogleLauncherTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
