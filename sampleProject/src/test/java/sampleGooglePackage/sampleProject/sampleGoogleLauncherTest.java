@@ -32,8 +32,7 @@ public class sampleGoogleLauncherTest {
 	@AfterMethod
 	public void afterMethod()
 	{
-		driver.close();
-		driver.quit();
+		driver.quit(); 
 		
 	}
 
